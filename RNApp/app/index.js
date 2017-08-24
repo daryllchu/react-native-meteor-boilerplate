@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Meteor, { createContainer } from 'react-native-meteor';
 
 import { AuthStack, Tabs } from './config/routes';
@@ -19,9 +20,9 @@ const RNApp = (props) => {
 };
 
 RNApp.propTypes = {
-  status: React.PropTypes.object,
-  user: React.PropTypes.object,
-  loggingIn: React.PropTypes.bool,
+  status: PropTypes.object,
+  user: PropTypes.object,
+  loggingIn: PropTypes.bool,
 };
 
 export default createContainer(() => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { View, ActivityIndicator } from 'react-native';
 import styles from './styles';
 
@@ -15,7 +16,7 @@ const Loading = (props) => {
 };
 
 Loading.propTypes = {
-  size: React.PropTypes.string,
+  size: PropTypes.string,
 };
 
 Loading.defaultProps = {

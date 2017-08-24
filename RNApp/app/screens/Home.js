@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { StyleSheet, Text, View } from 'react-native';
 import { colors } from '../config/styles';
 import Button from '../components/Button';
@@ -34,7 +35,7 @@ const Home = (props) => {
 };
 
 Home.propTypes = {
-  navigation: React.PropTypes.object,
+  navigation: PropTypes.object,
 };
 
 export default Home;

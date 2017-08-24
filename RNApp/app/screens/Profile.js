@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Meteor, { createContainer } from 'react-native-meteor';
 import { StyleSheet, Dimensions, Text, View, Image } from 'react-native';
 
@@ -51,7 +52,7 @@ class Profile extends Component {
 }
 
 Profile.propTypes = {
-  user: React.PropTypes.object,
+  user: PropTypes.object,
 };
 
 export default createContainer(() => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import styles from './styles';
 
@@ -11,7 +12,7 @@ const InputWrapper = (props) => {
 };
 
 InputWrapper.propTypes = {
-  children: React.PropTypes.array,
+  children: PropTypes.array,
 };
 
 export default InputWrapper;

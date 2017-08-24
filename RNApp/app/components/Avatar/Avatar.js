@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Image } from 'react-native';
 import gravatar from 'gravatar-api';
 
@@ -22,7 +23,7 @@ const Avatar = (props) => {
 };
 
 Avatar.propTypes = {
-  email: React.PropTypes.string,
+  email: PropTypes.string,
 };
 
 export default Avatar;
