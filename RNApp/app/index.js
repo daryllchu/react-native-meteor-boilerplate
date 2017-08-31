@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Meteor, { createContainer } from 'react-native-meteor';
 
-import { AuthStack, Tabs } from './config/routes';
+import { AuthStack, IntroStack, Tabs } from './config/routes';
 import Loading from './components/Loading';
 import settings from './config/settings';
 
@@ -16,7 +16,7 @@ const RNApp = (props) => {
   } else if (user !== null) {
     return <Tabs />;
   }
-  return <AuthStack />;
+  return <IntroStack />;
 };
 
 RNApp.propTypes = {

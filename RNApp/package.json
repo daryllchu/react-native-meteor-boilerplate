@@ -11,8 +11,11 @@
     "prop-types": "^15.5.10",
     "react": "^16.0.0-alpha.12",
     "react-native": "^0.47.1",
+    "react-native-app-intro": "^1.1.5",
     "react-native-keyboard-spacer": "^0.3.0",
     "react-native-meteor": "^1.1.0",
+    "react-native-navigation": "^1.1.205",
+    "react-native-vector-icons": "^4.3.0",
     "react-navigation": "^1.0.0-beta.12"
   },
   "devDependencies": {

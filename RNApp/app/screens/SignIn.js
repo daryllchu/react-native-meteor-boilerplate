@@ -138,7 +138,7 @@ class SignIn extends Component {
             source={logoImage}
           />
 
-          <Text style={styles.headerText}>React Native Meteor</Text>
+          <Text style={styles.headerText}>React Native Meteor I</Text>
           <Text style={styles.subHeaderText}>Boilerplate</Text>
         </View>
 
